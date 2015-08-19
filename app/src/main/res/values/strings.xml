@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LearnAnimation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="animate_me">Animate me</string>
+    <string name="title_activity_rotate_animation">RotateAnimationActivity</string>
+    <string name="rotate_me">Rotate me</string>
+    <string name="title_activity_translate_animation">TranslateAnimationActivity</string>
+    <string name="translate_me">Translate me</string>
+    <string name="title_activity_scale_animation">ScaleAnimationActivity</string>
+    <string name="title_activity_mixing_animation">MixingAnimationActivity</string>
+</resources>
