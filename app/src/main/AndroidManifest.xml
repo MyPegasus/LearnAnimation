@@ -46,6 +46,18 @@
         <activity
             android:name=".ScaleAnimationActivity"
             android:label="@string/title_activity_scale_animation" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".MixingAnimationActivity"
+            android:label="@string/title_activity_mixing_animation" >
             <!--<intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -53,8 +65,8 @@
             </intent-filter>-->
         </activity>
         <activity
-            android:name=".MixingAnimationActivity"
-            android:label="@string/title_activity_mixing_animation" >
+            android:name=".CustomAnimationActivity"
+            android:label="@string/title_activity_custom_animation" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

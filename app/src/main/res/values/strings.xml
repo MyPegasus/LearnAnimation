@@ -9,4 +9,5 @@
     <string name="translate_me">Translate me</string>
     <string name="title_activity_scale_animation">ScaleAnimationActivity</string>
     <string name="title_activity_mixing_animation">MixingAnimationActivity</string>
+	<string name="title_activity_custom_animation">CustomAnimationActivity</string>
 </resources>
