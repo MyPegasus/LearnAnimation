@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.CycleInterpolator;
 
 public class CustomAnimationActivity extends AppCompatActivity {
 
@@ -16,6 +17,7 @@ public class CustomAnimationActivity extends AppCompatActivity {
 		setContentView(R.layout.activity_custom_animation);
 
 		ca = new CustomAnimation();
+		ca.setInterpolator(new CycleInterpolator((float) (3.14/2)));
 		ca.setDuration(1000);
 
 		findViewById(R.id.btn_animateMe).setOnClickListener(new View.OnClickListener() {

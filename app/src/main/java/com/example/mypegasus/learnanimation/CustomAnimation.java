@@ -25,7 +25,7 @@ public class CustomAnimation extends Animation {
 
 //		t.getMatrix().setTranslate(200 * interpolatedTime, 200 * interpolatedTime);
 
-		t.getMatrix().setTranslate((float) (Math.sin(interpolatedTime * 20) * 100), 0);
+		t.getMatrix().setTranslate((float) (Math.sin(interpolatedTime * 2 * 3.14) * 100), 0);
 
 		super.applyTransformation(interpolatedTime, t);
 
